@@ -1,0 +1,9 @@
+<h1> These are our Restaurants:</h1>
+
+<div class= "container">
+<ul class="list-group">
+<% @restaurants.each do |restaurant|%>
+<li><%= restaurant.name %></li>
+<% end %>
+</ul>
+</div>
