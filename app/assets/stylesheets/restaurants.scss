@@ -1,3 +1,15 @@
 // Place all the styles related to the restaurants controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.card {
+  background-color: azure;
+  margin: 8px;
+  padding: 40px;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: bold;
+  color: aliceblue;
+}
